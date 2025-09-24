@@ -4,39 +4,100 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV - Nabil Marsya Azzahra</title>
+  <style>
+    :root{
+      --bg: #fff5f8;
+      --card: #ffffff;
+      --accent: #e91e63;   /* pink */
+      --muted: #6b7280;
+      --glass: rgba(233,30,99,0.06);
+      --shadow: 0 6px 18px rgba(233,30,99,0.08);
+    }
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(180deg,var(--bg),#ffffff 60%);
+      color:#111;
+      line-height:1.5;
+      padding:20px;
+      display:flex;
+      justify-content:center;
+    }
+    .cv{
+      max-width:800px;
+      width:100%;
+      background:var(--card);
+      border-radius:12px;
+      box-shadow:var(--shadow);
+      padding:24px;
+    }
+    h1,h2,h3,h4{color:var(--accent);margin-top:0}
+    .about{
+      background:var(--glass);
+      padding:10px;
+      border-radius:8px;
+    }
+    .card{
+      background:#fff;
+      border:1px solid rgba(233,30,99,0.1);
+      padding:10px;
+      border-radius:8px;
+      margin-bottom:10px;
+    }
+    ul{padding-left:20px}
+    li{
+      margin:4px 0;
+      color:var(--accent);
+    }
+  </style>
 </head>
 <body>
-  <h1>CV RESUME</h1>
-  <h2>NABIL MARSYA AZZAHRA</h2>
-  <p>S1 Sistem Informasi — Telkom University</p>
+  <div class="cv">
+    <h1>CV RESUME</h1>
+    <h2>NABIL MARSYA AZZAHRA</h2>
+    <p>S1 Sistem Informasi — Telkom University</p>
 
-  <h3>Contact</h3>
-  <p>+62 8131-8342-819</p>
-  <p>nabilmarsya08@gmail.com</p>
-  <p>Jakarta Selatan</p>
+    <h3>Contact</h3>
+    <p>+62 8131-8342-819</p>
+    <p>nabilmarsya08@gmail.com</p>
+    <p>Jakarta Selatan</p>
 
-  <h3>About Me</h3>
-  <p>Saya adalah pribadi yang bertanggung jawab serta memiliki keinginan untuk berkembang.</p>
+    <h3>About Me</h3>
+    <div class="about">
+      <p>Hi, I am Marsya, an undergraduate Information Systems student at Telkom University with strong interests in data, technology, and continuous growth. I am adaptable, curious, and eager to take on challenges that push me to improve.
+        Through organizational and committee experiences, I developed skills in public speaking, teamwork, and leadership. 
+        Currently, I am focusing on data analysis and exploring how data-driven solutions can create positive impact, while combining technical knowledge with interpersonal strengths.</p>
+    </div>
 
-  <h3>Experience</h3>
-  <p><strong>Pusat Informasi & Konseling Remaja (PIK-R SMART)</strong> — 2023/2024</p>
-  <p>Menjabat sebagai ketua umum; pengalaman berharga selama SMA yang melatih tanggung jawab, kepemimpinan, dan kemampuan kerja sama.</p>
+    <h3>Experience</h3>
+    <div class="card">
+      <p><strong>Pusat Informasi & Konseling Remaja (PIK-R SMART)</strong> — 2023/2024</p>
+      <p>Served as Student Council President; a valuable experience during high school that strengthened my responsibility, leadership, and teamwork skills.</p>
+    </div>
+      <div class="card">
+      <p><strong>DIGITAL TEAM: FGD TIKTOK
+      <p>Marketing Crew Telkom University Kampus Jakarta</strong> — Jan 2025 - Present</p>
+      <p>Contributed to campus marketing and promotional activities, supporting student recruitment events and brand champaigns while enhancing communication and teamwork skills.  </p>
+    </div>
+    
+    <h3>Education</h3>
+    <div class="card">
+      <p><strong>SMAN 3 Kab. Tangerang</strong> — 2021-2024</p>
+    </div>
+    <div class="card">
+      <p><strong>Telkom University — S1 Sistem Informasi (Kampus Jakarta)</strong> - Present </p>
+    </div>
 
-  <h3>Education</h3>
-  <p><strong>SMAN 3 Kab. Tangerang</strong> — 2021-2024</p>
-  <p><strong>Telkom University — S1 Sistem Informasi (Kampus Jakarta)</strong> - Sekarang</p>
-
-  <h3>Skills</h3>
-  <h4>Soft Skill</h4>
-  <ul>
-    <li>Public Speaking</li>
-    <li>Problem Solving</li>
-    <li>Adaptasi</li>
-    <li>Berpikir Kritis</li>
-    <li>Kerja Sama & Kolaborasi</li>
-    <li>Organisasi</li>
-    <li>Kepemimpinan</li>
-    <li>Pendengar</li>
-  </ul>
+    <h3>Skills</h3>
+    <h4>Soft Skill</h4>
+    <ul>
+      <li>Leader</li>
+      <li>Public Speaking</li>
+      <li>Problem Solving</li>
+      <li>Critical Thinking</li>
+      <li>Teamwork & Collaboration</li>
+      <li>organization</li>
+    </ul>
+  </div>
 </body>
 </html>
