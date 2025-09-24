@@ -8,7 +8,7 @@
     :root{
       --bg: #fff5f8;
       --card: #ffffff;
-      --accent: #e91e63;   /* pink */
+      --accent: #e91e63;  
       --muted: #6b7280;
       --glass: rgba(233,30,99,0.06);
       --shadow: 0 6px 18px rgba(233,30,99,0.08);
@@ -49,13 +49,34 @@
       margin:4px 0;
       color:var(--accent);
     }
+
+  
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+    .header img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: var(--shadow);
+    }
   </style>
 </head>
 <body>
   <div class="cv">
-    <h1>CV RESUME</h1>
-    <h2>NABIL MARSYA AZZAHRA</h2>
-    <p>S1 Sistem Informasi — Telkom University</p>
+
+    <div class="header">
+      <img src="foto.jpg" alt="Foto Nabil Marsya Azzahra">
+      <div>
+        <h1>CV</h1>
+        <h2>NABIL MARSYA AZZAHRA</h2>
+        <p>S1 Sistem Informasi — Telkom University</p>
+      </div>
+    </div>
 
     <h3>Contact</h3>
     <p>+62 8131-8342-819</p>
@@ -74,12 +95,12 @@
       <p><strong>Pusat Informasi & Konseling Remaja (PIK-R SMART)</strong> — 2023/2024</p>
       <p>Served as Student Council President; a valuable experience during high school that strengthened my responsibility, leadership, and teamwork skills.</p>
     </div>
-      <div class="card">
-      <p><strong>DIGITAL TEAM: FGD TIKTOK
-      <p>Marketing Crew Telkom University Kampus Jakarta</strong> — Jan 2025 - Present</p>
-      <p>Contributed to campus marketing and promotional activities, supporting student recruitment events and brand champaigns while enhancing communication and teamwork skills.  </p>
+    <div class="card">
+      <p><strong>DIGITAL TEAM: FGD TIKTOK</strong></p>
+      <p><strong>Marketing Crew Telkom University Kampus Jakarta</strong> — Jan 2025 - Present</p>
+      <p>Contributed to campus marketing and promotional activities, supporting student recruitment events and brand champaigns while enhancing communication and teamwork skills.</p>
     </div>
-    
+
     <h3>Education</h3>
     <div class="card">
       <p><strong>SMAN 3 Kab. Tangerang</strong> — 2021-2024</p>
@@ -96,9 +117,8 @@
       <li>Problem Solving</li>
       <li>Critical Thinking</li>
       <li>Teamwork & Collaboration</li>
-      <li>organization</li>
+      <li>Organization</li>
     </ul>
   </div>
 </body>
 </html>
-
